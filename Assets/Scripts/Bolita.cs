@@ -54,9 +54,7 @@ public class Bolita : MonoBehaviour
         }
 
         rb.AddForce(new Vector3(xAleatoria, yAleatoria, 0).normalized * velocidad, ForceMode2D.Impulse);
+
     }
-    void Update()
-    {
-        
-    }
+
 }
